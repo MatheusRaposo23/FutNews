@@ -1,0 +1,66 @@
+.maislidas{
+	margin-top: 20px;
+	gap:20px;
+	grid-area: maislidas;
+}
+
+.maislidas h1{
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: aliceblue;
+	font-size: 1.75rem;
+}
+
+.nmaislidos{
+	margin: 20px 20px 20px 0;
+	display: grid;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid #000;
+	padding: 20px;
+	border-radius: 4px;
+	color: #fff;
+	height: 240px;
+	transition: 0.4s;
+}
+
+.nmaislidos:hover{
+	transform: scale3d(1.02, 1.02, 1);
+}
+
+.nmaislidos h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 1.4rem;
+	margin-bottom: 18px;
+}
+
+.littletext{
+	font-family: 'Inter', sans-serif;
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+
+.lermais{
+	text-decoration: none;
+	color: #07E044;
+	cursor: pointer;
+}
+
+.tituloMl{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tituloMl h2{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 12px;
+}
+
+.imagemMl{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: inline-block;
+}
